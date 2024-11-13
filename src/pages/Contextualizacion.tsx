@@ -11,7 +11,7 @@ const Contextualizacion = () => {
     const navigate = useNavigate();
 
     const handleStartCourse = () => {
-        navigate('/proximidad-similitud-cierre');
+        navigate('/principios');
         window.scrollTo(0, 0);
     };
     return (

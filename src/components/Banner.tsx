@@ -95,7 +95,7 @@ const Banner: React.FC<BannerProps> = ({ page }) => {
                         className='absolute left-0 top-0 object-cover w-full h-full brightness-50'
                         alt=''
                     />
-                    <div className='text-white absolute bottom-8'>
+                    <div className='text-white absolute bottom-8 w-[90%] lg:w-3/6'>
                         {unit !== '' ? <p>Unidad {unit}</p> : null}
                         <h1 className='text-4xl font-bold'>{title}</h1>
                     </div>

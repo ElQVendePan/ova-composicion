@@ -3,11 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './pages/MainPage';
 import Contextualizacion from './pages/Contextualizacion';
-import Psc from './pages/Psc';
-import Cfs from './pages/Cfs';
-import Direccion from './pages/Direccion';
-import Cuestionario from './pages/Cuestionario';
-
+import Principios from './pages/Principios';
 
 const App: React.FC = () => {
   return (
@@ -15,10 +11,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/contextualizacion" element={<Contextualizacion />} />
-        <Route path="/proximidad-similitud-cierre" element={<Psc />} />
-        <Route path="/continuidad-figura-fondo" element={<Cfs />} />
-        <Route path='/direccion' element={<Direccion />} />
-        <Route path='/cuestionario' element={<Cuestionario />} />
+        <Route path="/principios" element={<Principios />} />
       </Routes>
     </Router>
   );
