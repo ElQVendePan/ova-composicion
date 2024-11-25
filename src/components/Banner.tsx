@@ -109,30 +109,60 @@ const Banner: React.FC<BannerProps> = ({ page }) => {
                         <div className='fixed top-0 left-0 w-full h-full backdrop-blur' onClick={toggleMenu}></div>
                         <nav ref={menuRef} className='absolute top-1/4 left-1/2 transform -translate-x-1/2 w-5/6 max-w-md bg-white rounded-lg shadow-lg mt-2 transition-all duration-300'>
                             <h2 className='text-xl font-bold px-4 mt-4'>Guía Práctica de las Leyes de Gestalt</h2>
-                            <ul className='flex flex-col p-4'>
-                                <li className=''>
-                                    <Link to="/" onClick={handleLinkClick} className='block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105'>Inicio</Link>
+                            <ul className="flex flex-col p-4">
+                                <li className="">
+                                    <Link
+                                        to="/"
+                                        onClick={handleLinkClick}
+                                        className="block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+                                    >
+                                        Inicio
+                                    </Link>
                                 </li>
-                                <li className='my-2'>
-                                    <Link to="/contextualizacion" onClick={handleLinkClick} className='block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105'>Contextualización</Link>
+                                <li className="my-2">
+                                    <Link
+                                        to="/contextualizacion"
+                                        onClick={handleLinkClick}
+                                        className="block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+                                    >
+                                        Contextualización
+                                    </Link>
                                 </li>
-                                <li className='my-2'>
-                                    <Link to="/principios" onClick={handleLinkClick} className='block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105'>Principios Básicos de Composición Visual</Link>
+                                <li className="my-2">
+                                    <Link
+                                        to="/principios"
+                                        onClick={handleLinkClick}
+                                        className="block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+                                    >
+                                        Principios Básicos de Composición Visual
+                                    </Link>
                                 </li>
-                                <li className='my-2'>
-                                    <Link to="/espacio" onClick={handleLinkClick} className='block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105'>Uso del Espacio en la Composición Visual</Link>
+                                <li className="my-2">
+                                    <Link
+                                        to="/espacios"
+                                        onClick={handleLinkClick}
+                                        className="block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+                                    >
+                                        Uso del Espacio en la Composición Visual
+                                    </Link>
                                 </li>
-                                <li className='my-2'>
-                                    <Link to="/estructuras" onClick={handleLinkClick} className='block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105'>Estructuras de Composición</Link>
+                                <li className="my-2">
+                                    <Link
+                                        to="/estructuras"
+                                        onClick={handleLinkClick}
+                                        className="block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+                                    >
+                                        Estructuras de Composición
+                                    </Link>
                                 </li>
-                                <li className='my-2'>
-                                    <Link to="/tipografia" onClick={handleLinkClick} className='block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105'>Tipografía en la Composición</Link>
-                                </li>
-                                <li className='my-2'>
-                                    <Link to="/figuras" onClick={handleLinkClick} className='block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105'>Figuras Retóricas Visuales</Link>
-                                </li>
-                                <li className='my-2'>
-                                    <Link to="/aplicaciones" onClick={handleLinkClick} className='block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105'>Aplicaciones de Composición en Diferentes Medios</Link>
+                                <li className="my-2">
+                                    <Link
+                                        to="/tipografia"
+                                        onClick={handleLinkClick}
+                                        className="block p-3 text-gray-800 hover:bg-blue-600 hover:text-white rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+                                    >
+                                        Tipografía en la Composición
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>

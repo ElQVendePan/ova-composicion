@@ -5,7 +5,7 @@ import Banner from '../components/Banner';
 import { useNavigate } from 'react-router-dom';
 import Content from '../components/Content';
 
-const Cuestionario: React.FC = () => {
+const CuestionarioComposicionVisual: React.FC = () => {
     const navigate = useNavigate();
 
     const [answers, setAnswers] = useState<{ [key: string]: string }>({});
@@ -41,97 +41,79 @@ const Cuestionario: React.FC = () => {
 
     const questions = [
         {
-            question: '¿Qué ley de Gestalt describe mejor esta imagen?',
-            image: '/proximidad.jpg', // Imagen de proximidad
+            question: '¿Qué principio de composición visual describe mejor esta imagen?',
+            image: '/balance.jpg', // Imagen que ilustra el principio de balance
             options: [
-                { text: 'Proximidad' },
-                { text: 'Similitud' },
-                { text: 'Cierre' },
-                { text: 'Figura-Fondo' },
+                { text: 'Balance' },
+                { text: 'Ritmo' },
+                { text: 'Proporción' },
+                { text: 'Espacio Negativo' },
             ],
-            answer: 'Proximidad',
+            answer: 'Balance',
         },
         {
-            question: '¿Cuál es el principio de Gestalt que explica por qué vemos una forma completa aunque le falten algunas partes?',
+            question: 'Selecciona la estructura de composición que se representa en esta imagen.',
+            image: 'https://hectorruizgolobart.com/imagenes/ejemplo-3-regla-de-los-tercios.jpg', // Imagen que muestra la regla de los tercios
             options: [
-                { text: 'Cierre' },
-                { text: 'Continuidad' },
-                { text: 'Similitud' },
-                { text: 'Proximidad' },
+                { text: 'Reglas de los Tercios' },
+                { text: 'Espiral Áurea' },
+                { text: 'Proporción' },
+                { text: 'Ritmo y Movimiento' },
             ],
-            answer: 'Cierre',
+            answer: 'Reglas de los Tercios',
         },
         {
-            question: '¿Qué ley de Gestalt se refiere a la agrupación de elementos que comparten características visuales similares?',
+            question: '¿Qué técnica de jerarquía visual se utiliza en este diseño?',
+            image: '/jerarquia.jpg', // Imagen que muestra un diseño con jerarquía visual
             options: [
-                { text: 'Similitud' },
-                { text: 'Continuidad' },
-                { text: 'Figura-Fondo' },
-                { text: 'Simetría' },
+                { text: 'Énfasis' },
+                { text: 'Composición en Capas' },
+                { text: 'Espacio Positivo' },
+                { text: 'Balance Asimétrico' },
             ],
-            answer: 'Similitud',
-        },        
-        {
-            question: '¿Qué ley de Gestalt representa mejor esta imagen?',
-            image: '/figura_fondo.jpg', // Imagen para figura-fondo
-            options: [
-                { text: 'Proximidad' },
-                { text: 'Continuidad' },
-                { text: 'Figura-Fondo' },
-                { text: 'Similitud' },
-            ],
-            answer: 'Figura-Fondo',
+            answer: 'Énfasis',
         },
         {
-            question: 'Selecciona la ley de Gestalt que mejor describe esta imagen.',
-            image: '/direccion_comun.jpg', // Imagen de Dirección Común
+            question: '¿Qué principio de composición crea contraste visual entre elementos de texto?',
+            image: 'https://ideasconcafe.com/wp-content/uploads/2018/10/06-1.png', // Imagen que muestra contraste tipográfico
             options: [
-                { text: 'Similitud' },
-                { text: 'Dirección Común' },
-                { text: 'Simetría' },
-                { text: 'Figura - Fondo' },
+                { text: 'Contraste Tipográfico' },
+                { text: 'Espacio Negativo' },
+                { text: 'Proporción y Escala' },
+                { text: 'Reglas de los Tercios' },
             ],
-            answer: 'Dirección Común',
+            answer: 'Contraste Tipográfico',
         },
         {
-            question: '¿Cuál de las siguientes imágenes muestra mejor el principio de Cierre?',
+            question: '¿Qué estructura de composición ayuda a guiar la mirada del espectador en esta imagen?',
+            image: 'https://www.format.com/wp-content/uploads/pexels-photo-326957.jpg', // Imagen que usa líneas para guiar la atención
             options: [
-                { image: '/cierre1.jpg', text: 'Opción 1' },
-                { image: '/cierre2.jpg', text: 'Opción 2' },
-                { image: '/cierre3.jpg', text: 'Opción 3' },
-                { image: '/cierre4.jpg', text: 'Opción 4' },
+                { text: 'Línea y Dirección Visual' },
+                { text: 'Balance Simétrico' },
+                { text: 'Ritmo y Movimiento' },
+                { text: 'Composición en Capas' },
             ],
-            answer: 'Opción 2',
+            answer: 'Línea y Dirección Visual',
         },
-        {
-            question: 'Cuando en una fila de puntos, algunos están más juntos que otros, ¿qué principio de Gestalt describe cómo agrupamos los puntos cercanos?',
-            options: [
-                { text: 'Proximidad' },
-                { text: 'Similitud' },
-                { text: 'Cierre' },
-                { text: 'Dirección Común' },
-            ],
-            answer: 'Proximidad',
-        },        
     ];
 
     const handleStartCourse = () => {
         window.scrollTo(0, 0);
-        navigate('/modos-de-color');
+        navigate('/ejercicios-practicos');
     };
 
     return (
         <div className='min-h-screen'>
             <Banner />
             <Content>
-                <Title>Cuestionario | Leyes de Gestalt</Title>
+                <Title>Cuestionario | Composición Visual</Title>
                 <p className="mt-4 mb-12 text-gray-700">Responde las siguientes preguntas seleccionando la opción correcta:</p>
 
                 {questions.map((q, index) => (
                     <div key={index} className="my-14">
                         <h2 className="text-lg font-bold">{q.question}</h2>
                         {q.image && (
-                            <img src={q.image} alt={`Pregunta ${index}`} className="my-4 rounded-lg max-w-full lg:max-w-52" />
+                            <img src={q.image} alt={`Pregunta ${index}`} className="my-4 rounded-lg max-w-full lg:max-w-[38rem]" />
                         )}
                         <div className="mt-6">
                             {q.options.map((option, idx) => (
@@ -143,11 +125,7 @@ const Cuestionario: React.FC = () => {
                                         onChange={handleChange}
                                         className="mr-2"
                                     />
-                                    {option.image ? (
-                                        <img src={option.image} alt={`Opción ${idx}`} className="inline-block w-32 rounded-lg" />
-                                    ) : (
-                                        option.text
-                                    )}
+                                    {option.text}
                                 </label>
                             ))}
                         </div>
@@ -185,4 +163,4 @@ const Cuestionario: React.FC = () => {
     );
 };
 
-export default Cuestionario;
+export default CuestionarioComposicionVisual;

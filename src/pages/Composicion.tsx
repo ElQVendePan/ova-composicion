@@ -11,7 +11,7 @@ const Composicion = () => {
     const navigate = useNavigate();
 
     const handleStartCourse = () => {
-        navigate('/principios');
+        navigate('/tipografia');
         window.scrollTo(0, 0);
     };
 
