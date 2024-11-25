@@ -28,13 +28,13 @@ const ComposicionVisual = () => {
                         </p>
                     </div>
                     <div>
-                        <iframe className='w-full h-64 lg:h-64 rounded-xl mt-8 lg:mt-0' src="https://www.youtube.com/embed/AKik3iW3GDY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-                        <p className='text-xs mt-3 opacity-70'>López, J. (2023, 10 de marzo). Principios básicos de composición visual.</p>
+                        <iframe className='w-full h-64 lg:h-64 rounded-xl mt-8 lg:mt-0' src="https://www.youtube.com/embed/djdoB2YavIg?si=_ScUA4YVyPlKvXxF" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                        <p className='text-xs mt-3 opacity-70'>Gartzia Artz. (2021). ENTIENDE LA COMPOSICIÓN VISUAL/dibujo fotografía pintura / fundamentos y recursos.</p>
                     </div>
                 </div>
             </Content>
             <ContentBlue>
-                <img src="page.jpg" className='absolute w-full h-full object-cover left-0 top-0 opacity-15 brightness-50' alt="" />
+                <img src="banner.jpg" className='absolute w-full h-full object-cover left-0 top-0 opacity-15 brightness-50' alt="" />
                 <div className='relative'>
                     <Title>Contexto y Relevancia</Title>
                     <p className="mt-4 opacity-80">

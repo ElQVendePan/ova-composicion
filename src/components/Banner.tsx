@@ -36,19 +36,9 @@ const Banner: React.FC<BannerProps> = ({ page }) => {
             banner = 'direccion.jpg';
             break;
         case 'tipografia':
-            unit = '3';
+            unit = '4';
             title = 'Tipografía en la Composición';
-            banner = 'direccion.jpg';
-            break;
-        case 'figuras':
-            unit = '3';
-            title = 'Figuras Retóricas Visuales';
-            banner = 'direccion.jpg';
-            break;
-        case 'aplicaciones':
-            unit = '3';
-            title = 'Aplicaciones de Composición en Diferentes Medios';
-            banner = 'direccion.jpg';
+            banner = 'https://fd.ort.edu.uy/innovaportal/file/149776/1/tipografia-plateada.jpg';
             break;
         default:
             title = 'Guía Práctica de Composición Visual';

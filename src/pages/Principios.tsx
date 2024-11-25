@@ -34,7 +34,7 @@ const Psc = () => {
                             <b className='text-blue-600'>Balance Asimétrico:</b> se da cuando los elementos no mantienen simetría por forma, pero sí por peso visual. En la asimetría, los elementos se distribuyen de forma desigual, pero conservan la armonía visual. Esta técnica aporta dinamismo y puede generar interés visual sin sacrificar el equilibrio.
                         </p>
                     </div>
-                    <ReferenceImage src='balance.jpg'>IBM. (n.d.). IBM logo [Logotipo]. IBM. <a href='https://www.ibm.com/' target='_blank'>https://www.ibm.com/ibm/logo</a></ReferenceImage>
+                    <ReferenceImage src='balance.jpg'>Hey Jaime. (n.d.). Jerarquía visual: qué es y cómo aplicarla bien </ReferenceImage>
                     <div>
                         <p className='mt-12 text-gray-700'>
                             <b>Un diseñador debe ser capaz de intuir cuando un diseño no tiene el equilibrio adecuado.</b>
@@ -49,7 +49,7 @@ const Psc = () => {
                     <p className="mt-4 opacity-70 mb-6">
                         La proporción se relaciona con el tamaño relativo de los elementos entre sí, mientras que la escala ajusta el tamaño para dar mayor énfasis o resaltar importancia. Estos principios permiten al diseñador establecer jerarquías visuales, ayudando a que el espectador identifique de inmediato los elementos principales de la composición.
                     </p>
-                    <ReferenceImage src='escala.jpg' text='Blattner Brunner. (n.d.). Shootz Café & Billiards [Anuncio].'></ReferenceImage>
+                    <ReferenceImage src='escala.jpg' text='Hey Jaime. (n.d.). Jerarquía visual: qué es y cómo aplicarla bien'></ReferenceImage>
                 </div>
             </ContentBlue>
             <Content>
@@ -60,12 +60,12 @@ const Psc = () => {
                             El ritmo utiliza la repetición y el patrón para guiar la mirada del espectador a través de la composición, creando una sensación de continuidad y orden. El movimiento, por su parte, hace que los elementos visuales parezcan fluir o seguir una dirección, estableciendo un camino visual que invita al espectador a explorar la totalidad de la imagen o diseño.
                         </p>
                     </div>
-                    <ReferenceImage src='ritmo.jpg'>FedEx. (n.d.). FedEx logo [Logotipo]. FedEx. <a href='https://www.fedex.com/es-co/home.html' target='_blank'>https://www.fedex.com/es-co/home.html</a></ReferenceImage>
+                    <ReferenceImage src='ritmo.jpg'>Hey Jaime. (n.d.). Jerarquía visual: qué es y cómo aplicarla bien</ReferenceImage>
                 </div>
             </Content>
             <Content>
                 <div className='lg:grid lg:grid-cols-2 items-center gap-10'>
-                    <ReferenceImage src='fedex.png'>FedEx. (n.d.). FedEx logo [Logotipo]. FedEx. <a href='https://www.fedex.com/es-co/home.html' target='_blank'>https://www.fedex.com/es-co/home.html</a></ReferenceImage>
+                    <ReferenceImage src='https://heyjaime.com/wp-content/uploads/2023/03/alineacion-jerarquia-visual.svg'>Hey Jaime. (n.d.). Jerarquía visual: qué es y cómo aplicarla bien</ReferenceImage>
                     <div className='text-right'>
                         <Title>1.4 | Énfasis y Jerarquía Visual</Title>
                         <p className="mt-4 text-gray-700">

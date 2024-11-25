@@ -68,28 +68,7 @@ const MainPage: React.FC = () => {
               </ul>
             </li>
             <li className="mb-3">
-              <strong>5. Figuras Retóricas Visuales</strong>
-              <ul className="list-circle ml-6 mt-2">
-                <li>5.1 | Metáforas y Simbolismos en Diseño</li>
-                <li>5.2 | Antítesis Visual</li>
-                <li>5.3 | Personificación y Alegoría Visual</li>
-              </ul>
-            </li>
-            <li className="mb-3">
-              <strong>6. Aplicaciones de Composición en Diferentes Medios</strong>
-              <ul className="list-circle ml-6 mt-2">
-                <li>6.1 | Composición para Medios Digitales</li>
-                <li>6.2 | Composición en Diseño Editorial e Impresos</li>
-                <li>6.3 | Composición en Medios Audiovisuales</li>
-              </ul>
-            </li>
-            <li className="mb-3">
-              <strong>7. Ejercicios Prácticos y Casos de Estudio</strong>
-              {/* <ul className="list-circle ml-6 mt-2">
-                <li>7.1 | Análisis de Diseños y Composiciones</li>
-                <li>7.2 | Creación de Composiciones Visuales</li>
-                <li>7.3 | Estudio de Casos y Tendencias Actuales</li>
-              </ul> */}
+              <strong>5. Ejercicios Prácticos y Casos de Estudio</strong>
             </li>
           </ul>
         </div>
@@ -100,26 +79,26 @@ const MainPage: React.FC = () => {
             Referencias
           </summary>
           <div className="mt-4 pl-6 text-gray-700">
-            {/* <p className="mb-6">
-              Cortázar, R. (2022, August 8). Leyes de Gestalt y su aplicación en marketing y publicidad. Blog De Acumbamail.<br />
-              <a href="https://acumbamail.com/blog/leyes-de-gestalt/" className='text-blue-600' target='_blank'>https://acumbamail.com/blog/leyes-de-gestalt/</a>
+            <p className="mb-6">
+              Llasera, J. P. (2024, November 9). Los 6 principios del diseño gráfico que debes conocer. Hey Jaime.<br />
+              <a href="https://heyjaime.com/blog/principios-diseno-grafico/" className='text-blue-600' target='_blank'>https://heyjaime.com/blog/principios-diseno-grafico/</a>
             </p>
             <p className="mb-6">
-              Fran. (2022, December 5). Leyes de la Gestalt: principio de continuidad y de dirección común. Blog De Francisco Torreblanca.<br />
-              <a href="https://franciscotorreblanca.es/principio-de-continuidad-direccion-comun/" className='text-blue-600' target='_blank'>https://franciscotorreblanca.es/principio-de-continuidad-direccion-comun/</a>
+              Neumeyer, H. (2022, September 28). La proporción áurea. MYPOSTER Blog.<br />
+              <a href="https://www.myposter.es/magazin/proporcion-aurea-regla-tercios/" className='text-blue-600' target='_blank'>https://www.myposter.es/magazin/proporcion-aurea-regla-tercios/</a>
             </p>
             <p className="mb-6">
-              SL, A.-. A. I. (n.d.). Las Leyes de la Gestalt. Las Leyes De La Gestalt.
-              <a href="https://anasaci.com/blog/disenadores/diseno_grafico/las-leyes-de-la-gestalt.html" className='text-blue-600' target='_blank'>https://anasaci.com/blog/disenadores/diseno_grafico/las-leyes-de-la-gestalt.html</a>
+              Admin. (2020, November 25). La línea - artesvisuales. artesvisuales.<br />
+              <a href="https://artesvisuales.com/blog/la-linea/" className='text-blue-600' target='_blank'>https://artesvisuales.com/blog/la-linea/</a>
             </p>
             <p className="mb-6">
-              Ilerna, & Ilerna. (2024, April 16). Leyes de la Gestalt y su impacto en la percepción visual | ILERNA. Blog ILERNA Online: FP a Distancia Con Titulación Oficial.<br />
-              <a href="https://www.ilerna.es/blog/leyes-de-la-gestalt" className='text-blue-600' target='_blank'>https://www.ilerna.es/blog/leyes-de-la-gestalt</a>
+              La importancia de la tipografía en el diseño y la comunicación visual - Universidad ORT Uruguay. (n.d.).<br />
+              <a href="https://fd.ort.edu.uy/blog/la-importancia-de-la-tipografia-en-el-diseno-y-la-comunicacion-visual#:~:text=La%20tipograf%C3%ADa%3A%20un%20elemento%20clave,con%20claridad%20y%20atractivo%20visual" className='text-blue-600' target='_blank'>https://fd.ort.edu.uy/blog/la-importancia-de-la-tipografia-en-el-diseno-y-la-comunicacion-visual</a>
             </p>
             <p className="mb-6">
-              Damos.co. (n.d.). Explorando los principios Gestalt del diseño.<br />
-              <a href="https://anasaci.com/blog/disenadores/diseno_grafico/las-leyes-de-la-gestalt.html" className='text-blue-600' target='_blank'>https://anasaci.com/blog/disenadores/diseno_grafico/las-leyes-de-la-gestalt.html</a>
-            </p> */}
+              Cómo elegir un estilo de tipografía adecuado en contrastes y jerarquía | Videolab | Tecnológico de Monterrey. (n.d.).<br />
+              <a href="https://videolab.tec.mx/es/como-elegir-un-estilo-de-tipografia-adecuado-en-contrastes-y-jerarquia" className='text-blue-600' target='_blank'>https://videolab.tec.mx/es/como-elegir-un-estilo-de-tipografia-adecuado-en-contrastes-y-jerarquia</a>
+            </p>
           </div>
         </details>
 

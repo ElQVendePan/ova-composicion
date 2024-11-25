@@ -6,6 +6,7 @@ import Contextualizacion from './pages/Contextualizacion';
 import Principios from './pages/Principios';
 import Espacio from './pages/Espacio';
 import Composicion from './pages/Composicion';
+import Tipografia from './pages/Tipografia';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/principios" element={<Principios />} />
         <Route path="/espacios" element={<Espacio />} />
         <Route path="composicion" element={<Composicion />} />
+        <Route path="/tipografia" element={<Tipografia />} />
       </Routes>
     </Router>
   );
