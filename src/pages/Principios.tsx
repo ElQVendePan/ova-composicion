@@ -12,7 +12,7 @@ const Psc = () => {
 
     const handleStartCourse = () => {
         window.scrollTo(0, 0);
-        navigate('/continuidad-figura-fondo');
+        navigate('/espacios');
     };
     return (
         <div className="bg-gray-50 min-h-screen">
@@ -73,9 +73,7 @@ const Psc = () => {
                         </p>
                     </div>
                 </div>
-                <iframe className='w-full h-64 lg:h-[30rem] rounded-xl mt-8' src="https://www.youtube.com/embed/FF436cqbcng?si=RQO655UCIp0NM8F7" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-                <p className='text-xs mt-3 opacity-70'>Freepik. (2019, Junio 24). Tono, saturación y brillo | Ilustración: Aprende todo sobre EL COLOR [Video]</p>
-                <Button margin='mt-8' onClick={handleStartCourse}>Siguiente</Button>
+                <Button margin='mt-16' onClick={handleStartCourse}>Siguiente</Button>
             </Content>
         </div>
     )
